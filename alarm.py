@@ -41,6 +41,7 @@ hour = StringVar()
 min = StringVar()
 sec = StringVar()
 
+
 #Time required to set the alarm clock 
 hourTime = Entry(clock, textvariable = hour, bg = "pink", width=15).place(x=110, y= 30)
 minTime = Entry(clock, textvariable = min, bg = "pink", width=15).place(x=150,y=30)
